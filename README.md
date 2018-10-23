@@ -4,9 +4,9 @@
     .
     ├── ...
     ├── src                     # Source code
-    │   ├── library             # Features components
-    │   │   ├── utils           # Reusable components (utilities)
-    │   └── screens            # App Screens with Navigator
+    │   ├── library             # App library
+    │   │   └── utils           # Reusable components (utilities)
+    │   └── screens             # App screens with Navigator
     └── ...
 
 
