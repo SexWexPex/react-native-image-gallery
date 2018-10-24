@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-import {View, Text, FlatList, StyleSheet, Image, TouchableNativeFeedback} from 'react-native';
+import {View, Text, FlatList, StyleSheet} from 'react-native';
+import PropTypes from 'prop-types';
 import {withNavigation} from "react-navigation";
-import {imageResizer} from "../../library/utils/imageResizer";
 import ImageComponent from "./ImageComponent";
 
 class ImageGallery extends Component {
-
+    static propTypes = {
+        data: PropTypes.arrayOf(PropTypes.object).isRequired
+    };
 
     renderItem = ({item}) => {
         return (

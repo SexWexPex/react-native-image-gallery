@@ -1,9 +1,13 @@
 import React, {Component} from 'react';
 import {View, Animated, Image, TouchableWithoutFeedback} from 'react-native';
+import PropTypes from 'prop-types';
 import {withNavigation} from 'react-navigation';
 import {imageResizer} from "../../library/utils/imageResizer";
 
 class ImageComponent extends Component {
+    static propTypes = {
+        item: PropTypes.object.isRequired
+    };
 
     state = {
         animatePress: new Animated.Value(1)
