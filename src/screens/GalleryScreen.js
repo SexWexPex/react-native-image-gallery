@@ -6,7 +6,7 @@ import {fetchImages} from "../library/store/actions/actionCreators";
 import {bindActionCreators} from "redux";
 
 class GalleryScreen extends Component {
-    
+
     componentDidMount() {
         this.props.fetchImages();
     }

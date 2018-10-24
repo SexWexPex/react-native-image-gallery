@@ -5,7 +5,8 @@
     ├── ...
     ├── src                     # Source code
     │   ├── library             # App library
-    │   │   └── utils           # Reusable components (utilities)
+    │   │   ├── utils           # Reusable components (utilities)
+    │   │   └── store           # Redux store
     │   └── screens             # App screens with Navigator
     └── ...
 
