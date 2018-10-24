@@ -14,7 +14,6 @@ class ImageComponent extends Component {
             toValue: 0.8,
             duration: 150
         }).start();
-        console.log("SD")
     };
 
     animateOut = () => {
